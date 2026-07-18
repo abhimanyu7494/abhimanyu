@@ -6,12 +6,14 @@ export const CircularMovingCards = ({
   items,
   className,
 }: {
-  items: {
-    name: string;
-    img?: string;
-    quote?: string;
-    title?: string;
-  }[];
+ items: {
+  name: string;
+  img?: string;
+  icon?: string;
+  image?: string;
+  quote?: string;
+  title?: string;
+}[];
   className?: string;
 }) => {
   return (
@@ -56,9 +58,9 @@ export const CircularMovingCards = ({
               hover:scale-110
             "
           >
-{(item.img || item.icon || item.image) && (
+{item.img && (
   <img
-    src={item.img || item.icon || item.image}
+    src={item.img}
     alt={item.name}
     className="h-12 w-12 object-contain mb-2"
   />
