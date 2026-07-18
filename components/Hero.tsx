@@ -57,7 +57,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-  Hi, I'm <span className="text-purple">Abhimanyu Pandey</span>, a Full Stack MERN Developer passionate 
+   Hi, I&apos;m <span className="text-purple">Abhimanyu Pandey</span>, a Full Stack MERN Developer passionate 
   about building scalable, secure, and user-friendly web applications.
 </p>
 

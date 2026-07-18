@@ -20,10 +20,10 @@ const Footer = () => {
           Ready to take <span className="text-purple">your</span> digital
           presence to the next level?
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          I'm open to freelance opportunities, collaborations, and exciting development projects.
-          Let's connect and create something great together.
-        </p>
+       <p className="text-white-200 md:mt-10 my-5 text-center">
+  I&apos;m open to freelance opportunities, collaborations, and exciting development projects.
+  Let&apos;s connect and create something great together.
+</p>
       <MagicButton
   title="Let's get in touch"
   icon={<FaLocationArrow />}
